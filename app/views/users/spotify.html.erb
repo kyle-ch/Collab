@@ -1,0 +1,6 @@
+<div class="container-fluid">
+  <h1 class="page-header">Your New Playist</h1>
+  <% url = $new_playlist.external_urls['spotify'].split('/') %>
+  <iframe src=<%="https://open.spotify.com/embed?uri=spotify:user:#{url[4]}:playlist:#{url[6]}"%>
+              width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
