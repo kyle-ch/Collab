@@ -49,8 +49,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Spotify API Ruby Wrapped
-gem 'rspotify', '>= 1.22.1'
+gem 'rspotify'
 
 gem 'omniauth'
+
+gem 'rest-client', '>= 2.0.2'
 
 gem 'coffee-script-source', '1.8.0'

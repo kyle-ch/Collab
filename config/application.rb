@@ -21,7 +21,7 @@ module Collab
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    RSpotify.authenticate("client id", "client secret")
+    RSpotify.authenticate("f0c970821ef54840b96c8f7261d2df00", "410ef7af94f14130bb5aafc1aaa3d51f")
 
   end
 end
